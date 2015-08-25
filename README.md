@@ -38,15 +38,15 @@ Colors are from VT100 legacy support in most terminal emulators.
     b:blue         m:magenta       c:cyan          w:white
 
 Example 1: jlettvin$ ./Banner.py
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@ jlettvin 2015-08-22T13:42:50.985580 Jonathans-MacBook-Pro.local
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @@@ jlettvin 2015-08-22T13:42:50.985580 Jonathans-MacBook-Pro.local
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 Example 2: jlettvin$ ./Banner.py --draw . --cols 30 hello world
-..............................
-... hello
-... world
-..............................
+    ..............................
+    ... hello
+    ... world
+    ..............................
 
 Example 2: jlettvin$ ./Banner.py --bare "Lorem ipsum dolor sit amet"
 @@@ Lorem ipsum dolor sit amet
