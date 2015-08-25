@@ -24,7 +24,7 @@ Options:
 
 bare: Eliminate the "draw" character lines above and below the banner.
 tint: Use a VT100 foreground/background color pair in the banner.
-draw: Use a specific character (like _) to form draw lines (_______)
+draw: Use a specific character (like .) to form draw lines (.......)
 lead: Use a specific length (like 3) on text lines (@@@ your banner text)
 cols: Use a specific length (like 14) to form draw lines (@@@@@@@@@@@@@@)
 unit: Show example output for various arguments.
@@ -42,11 +42,11 @@ Example 1: jlettvin$ ./Banner.py
 @@@ jlettvin 2015-08-22T13:42:50.985580 Jonathans-MacBook-Pro.local
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-Example 2: jlettvin$ ./Banner.py --draw _ --cols 30 hello world
-______________________________
-___ hello
-___ world
-______________________________
+Example 2: jlettvin$ ./Banner.py --draw . --cols 30 hello world
+..............................
+... hello
+... world
+..............................
 
 Example 2: jlettvin$ ./Banner.py --bare "Lorem ipsum dolor sit amet"
 @@@ Lorem ipsum dolor sit amet
